@@ -10,7 +10,11 @@ module.exports = {
     "./src/index.njk",
   ],
   theme: {
-    extend: {},
+    extend: {
+    fontFamily: {
+      'termina': ['termina', 'sans-serif']
+    }
+    }
   },
   variants: {},
   plugins: [],
